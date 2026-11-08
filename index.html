@@ -38,15 +38,10 @@
       width: 140px;
       height: 140px;
       border-radius: 50%;
-      background: linear-gradient(135deg, var(--accent), var(--accent-2));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 3.5rem;
-      font-weight: 700;
-      color: #0f172a;
+      object-fit: cover;
       margin: 0 auto 1.5rem;
       box-shadow: 0 0 0 4px var(--card), 0 0 0 8px var(--accent);
+      display: block;
     }
     h1 {
       font-size: 2.5rem;
@@ -177,7 +172,7 @@
 <body>
   <div class="container">
     <header>
-      <div class="avatar">JL</div>
+      <img class="avatar" src="avatar.svg" alt="Jan Rhey Lagaña">
       <h1>Jan Rhey B. Lagaña</h1>
       <p class="tagline">Electrical Engineer · AI Researcher · Builder of edge-deployable computer vision systems</p>
     </header>
